@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Res-Central",
+    "slug": "res-central",
+    "version": "1.0.0",
+    "scheme": "res-central",
+    "orientation": "portrait",
+    "icon": "./assets/Brand/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FBE9EA",
+        "foregroundImage": "./assets/Brand/android-icon-foreground.png",
+        "backgroundImage": "./assets/Brand/android-icon-background.png",
+        "monochromeImage": "./assets/Brand/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/Brand/favicon.png"
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-router",
+      "expo-image",
+      ["expo-location", { "locationWhenInUsePermission": "Allow Res-Central to use your location for nearby safety conditions and map items." }]
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+import { StyleSheet } from 'react-native';
+import { brand } from './BrandColors';
+
+export const styles = StyleSheet.create({
+  screen: { flex: 1, backgroundColor: '#FFFFFF' },
+  safeArea: { flex: 1, backgroundColor: '#FFFFFF' },
+  topBar: { height: 56, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 18 },
+  backButton: { width: 42, height: 42, borderRadius: 22, borderWidth: 1, borderColor: '#E0E2E4', alignItems: 'center', justifyContent: 'center' },
+  topBarTitle: { color: brand.black, fontSize: 16, fontWeight: '800' },
+  topBarSpacer: { width: 42 },
+  content: { paddingHorizontal: 18, paddingTop: 18, paddingBottom: 28 },
+  header: { flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 27 },
+  heading: { color: brand.black, fontSize: 29, fontWeight: '800', letterSpacing: -0.7 },
+  subtitle: { color: '#7C8490', fontSize: 12, marginTop: 3 },
+  roundButton: { width: 43, height: 43, borderRadius: 22, borderWidth: 1, borderColor: '#E0E2E4', alignItems: 'center', justifyContent: 'center' },
+  notificationDot: { position: 'absolute', width: 7, height: 7, borderRadius: 4, backgroundColor: brand.red, right: 9, top: 8 },
+  listTabs: { height: 48, flexDirection: 'row', backgroundColor: '#F1F3F6', borderRadius: 15, padding: 4, marginBottom: 14 },
+  listTab: { flex: 1, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
+  listTabSelected: { backgroundColor: brand.blueDark },
+  listTabText: { color: '#6E7785', fontSize: 13, fontWeight: '800' },
+  listTabTextSelected: { color: '#FFFFFF' },
+  listCaption: { color: '#8A919C', fontSize: 11, marginBottom: 8 },
+  listRow: { minHeight: 84, flexDirection: 'row', alignItems: 'center', gap: 10, borderBottomWidth: 1, borderBottomColor: '#EAECF0', paddingVertical: 11 },
+  parcelIcon: { width: 38, height: 38 },
+  rowCopy: { flex: 1, gap: 3 },
+  parcelId: { color: brand.black, fontSize: 14, fontWeight: '800' },
+  rowDetail: { color: '#777D88', fontSize: 11, lineHeight: 14 },
+  codeColumn: { alignItems: 'flex-end', gap: 3 },
+  codeLabel: { color: '#7B8797', fontSize: 9, fontWeight: '800', letterSpacing: 0.5 },
+  codeValue: { color: brand.blueDark, fontSize: 15, fontWeight: '900', letterSpacing: 0.7 },
+  historyDate: { color: '#777D88', fontSize: 10 },
+});

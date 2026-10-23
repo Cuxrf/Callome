@@ -1,0 +1,33 @@
+import { StyleSheet } from 'react-native';
+import { brand } from './BrandColors';
+
+export const styles = StyleSheet.create({
+  screen: { flex: 1, backgroundColor: '#FFFFFF' },
+  safeArea: { flex: 1, backgroundColor: '#FFFFFF' },
+  topBar: { height: 58, paddingHorizontal: 18, flexDirection: 'row', alignItems: 'center', borderBottomWidth: 1, borderBottomColor: '#ECEFF2' },
+  backButton: { width: 38, height: 44, justifyContent: 'center' },
+  topTitle: { flex: 1, color: brand.black, fontSize: 18, fontWeight: '800' },
+  content: { paddingHorizontal: 18, paddingTop: 24, paddingBottom: 42 },
+  simpleIntro: { marginBottom: 28 },
+  simpleTitle: { color: '#1C314B', fontSize: 29, fontWeight: '800', letterSpacing: -0.8 },
+  simpleDescription: { color: '#718093', fontSize: 13, lineHeight: 19, marginTop: 6 },
+  sectionTitle: { color: '#1B2F46', fontSize: 17, fontWeight: '800', marginBottom: 14 },
+  categoryGrid: { flexDirection: 'row', gap: 10 },
+  categoryTile: { flex: 1, minHeight: 142, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 5, paddingVertical: 12, borderRadius: 16, backgroundColor: '#F7F9FC', borderWidth: 2, borderColor: 'transparent' },
+  categoryImage: { width: 76, height: 76 },
+  categoryTileTitle: { color: '#23374F', fontSize: 12, fontWeight: '800', textAlign: 'center', marginTop: 5 },
+  categoryTileBin: { color: '#7C8998', fontSize: 10, textAlign: 'center', marginTop: 2 },
+  lookupHeading: { marginTop: 30 },
+  searchBox: { flexDirection: 'row', alignItems: 'center', gap: 9, backgroundColor: '#F7F9FC', borderWidth: 1, borderColor: '#E1E6EC', borderRadius: 14, minHeight: 52, paddingHorizontal: 14 },
+  searchInput: { flex: 1, color: '#26384B', fontSize: 13, paddingVertical: 12 },
+  resultsLabel: { color: '#7C8998', fontSize: 9, fontWeight: '900', letterSpacing: 1.2, marginTop: 22, marginBottom: 4 },
+  resultRow: { flexDirection: 'row', alignItems: 'center', borderBottomWidth: 1, borderBottomColor: '#EDF0F3', paddingVertical: 13, gap: 11 },
+  resultDot: { width: 9, height: 9, borderRadius: 5 },
+  resultCopy: { flex: 1 },
+  resultName: { color: '#23374F', fontSize: 13, fontWeight: '800' },
+  resultNote: { color: '#87929D', fontSize: 10, lineHeight: 15, marginTop: 3 },
+  resultCategory: { maxWidth: 87, color: brand.blueDark, fontSize: 10, fontWeight: '800', textAlign: 'right' },
+  emptyBox: { alignItems: 'center', paddingVertical: 33 },
+  emptyTitle: { color: '#31445A', fontSize: 14, fontWeight: '800', marginTop: 8 },
+  emptyDescription: { color: '#83909C', fontSize: 11, lineHeight: 17, textAlign: 'center', marginTop: 5 },
+});

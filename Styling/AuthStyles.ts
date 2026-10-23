@@ -1,0 +1,31 @@
+import { StyleSheet } from 'react-native';
+import { brand } from './BrandColors';
+
+export const styles = StyleSheet.create({
+  screen: { flex: 1, backgroundColor: '#0B0A10' },
+  background: { ...StyleSheet.absoluteFill },
+  gradient: { ...StyleSheet.absoluteFill },
+  welcomeContent: { flex: 1, justifyContent: 'flex-end', paddingHorizontal: 28 },
+  bottomContent: { paddingBottom: 35 },
+  heroTitle: { color: '#FFFFFF', fontSize: 50, lineHeight: 54, fontWeight: '900', letterSpacing: -2.3 },
+  description: { color: '#CAC9D2', fontSize: 16, lineHeight: 23, marginTop: 16, marginBottom: 31, maxWidth: 340 },
+  primaryButton: { minHeight: 62, backgroundColor: brand.blue, borderRadius: 32, paddingHorizontal: 24, alignItems: 'center', justifyContent: 'center', flexDirection: 'row' },
+  buttonPressed: { opacity: 0.83 },
+  primaryButtonText: { color: '#FFFFFF', fontSize: 17, fontWeight: '800' },
+  secondaryButton: { alignItems: 'center', paddingTop: 25, paddingBottom: 10 },
+  secondaryButtonText: { color: '#FFFFFF', fontSize: 15, fontWeight: '700' },
+  formContainer: { flex: 1 },
+  formScroll: { flexGrow: 1, paddingHorizontal: 28 },
+  backButton: { alignSelf: 'flex-start', paddingTop: 67, paddingBottom: 16, paddingRight: 20 },
+  backText: { color: '#FFFFFF', fontSize: 16, fontWeight: '700' },
+  formContent: { marginTop: 'auto', paddingBottom: 42 },
+  formTitle: { color: '#FFFFFF', fontSize: 46, lineHeight: 51, fontWeight: '900', letterSpacing: -2 },
+  formDescription: { color: '#CAC9D2', fontSize: 16, lineHeight: 23, marginTop: 9, marginBottom: 26 },
+  fieldGroup: { marginBottom: 16 },
+  fieldLabel: { color: '#F3F2F6', fontSize: 13, fontWeight: '700', marginBottom: 8 },
+  input: { height: 56, paddingHorizontal: 17, borderRadius: 15, backgroundColor: '#25242E', borderWidth: 1, borderColor: '#44424E', color: '#FFFFFF', fontSize: 16 },
+  formSubmit: { marginTop: 12 },
+  switchButton: { alignItems: 'center', paddingVertical: 23 },
+  switchText: { color: '#C7C6CE', fontSize: 14 },
+  switchLink: { color: '#FFFFFF', fontWeight: '800' },
+});
